@@ -1,0 +1,61 @@
+/* ! ===== Google Fonts Start ===== */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* ! ===== Google Fonts End ===== */
+
+
+/* ! ===== Reset Start ===== */
+* {
+    box-sizing: border-box;
+}
+/* ! ===== Reset End ===== */
+
+
+/* ! ===== Body Style Start ===== */
+body {
+    background-image: url("https://images.pexels.com/photos/1764089/pexels-photo-1764089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+}
+/* ! ===== Body Style End===== */
+
+
+/* ! ===== Countdown Container Style Start===== */
+h1 {
+    font-size: 4rem;
+    margin-top: 12rem;
+    color: #eee;
+    text-shadow: 4px 3px 9px rgb(0, 0, 0);
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text {
+    font-size: 6.5rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+    color: #eee;
+    text-shadow: 4px 3px 9px rgb(0, 0, 0);
+}
+
+.countdown {
+    text-align: center;
+}
+
+.countdown span {
+    font-size: 1.5rem;
+    color: #eee;
+    text-shadow: 4px 3px 9px rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+/* ! ===== Countdown Container Style End ===== */
